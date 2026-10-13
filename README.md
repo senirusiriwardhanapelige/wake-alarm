@@ -26,29 +26,6 @@ This repository contains a browser-based wake-up alarm prototype that uses your 
 - All video processing happens locally in your browser. No video data is uploaded to any server by this code (ml5 models run locally in the browser).
 - You must allow camera access for the sketch to work.
 
-## Folder structure
-
-- code/
-  - index.html  — webpage that loads the sketch
-  - sketch.js   — p5 + ml5 sketch with the alarm logic
-- README.md     — this file
-
-## Run locally
-
-1. Clone the repository (or download):
-
-```bash
-git clone https://github.com/senirusiriwardhanapelige/wake-alarm.git
-cd wake-alarm
-```
-
-2. Serve with a local static server (required for getUserMedia in some browsers):
-
-```bash
-# Python 3
-python3 -m http.server 8000
-```
-
 3. Open http://localhost:8000/code/ in your browser.
 
 ## Notes & tuning
